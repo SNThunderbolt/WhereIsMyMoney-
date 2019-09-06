@@ -97,11 +97,12 @@
 		296D3318232284EC00018443 /* WhereIsMyMoney */ = {
 			isa = PBXGroup;
 			children = (
-				296D3319232284EC00018443 /* AppDelegate.swift */,
-				296D331B232284EC00018443 /* ViewController.swift */,
-				296D331D232284EC00018443 /* Main.storyboard */,
+				296D334B232286DE00018443 /* Storyboards */,
+				296D334A232286AB00018443 /* AppDelegate */,
+				296D33472322868B00018443 /* Model */,
+				296D33482322869500018443 /* View */,
+				296D3349232286A100018443 /* Controller */,
 				296D3320232284EC00018443 /* Assets.xcassets */,
-				296D3322232284EC00018443 /* LaunchScreen.storyboard */,
 				296D3325232284EC00018443 /* Info.plist */,
 			);
 			path = WhereIsMyMoney;
@@ -123,6 +124,45 @@
 				296D333B232284EC00018443 /* Info.plist */,
 			);
 			path = WhereIsMyMoneyUITests;
+			sourceTree = "<group>";
+		};
+		296D33472322868B00018443 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		296D33482322869500018443 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		296D3349232286A100018443 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				296D331B232284EC00018443 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		296D334A232286AB00018443 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				296D3319232284EC00018443 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		296D334B232286DE00018443 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				296D331D232284EC00018443 /* Main.storyboard */,
+				296D3322232284EC00018443 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
