@@ -1,24 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vrP-0w-0tI">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Item 2-->
+        <scene sceneID="soi-4i-RLG">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                <viewController id="f3s-CF-el7" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hk1-CE-lip">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="1" green="0.56990213315612204" blue="0.65343830957667526" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="ajA-6u-X1N"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Item 2" image="dashboardIocn" selectedImage="dashboardIocnSelected" id="ing-QS-3PK"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xle-V4-Jdp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-2951" y="689"/>
+        </scene>
+        <!--Item 1-->
+        <scene sceneID="xIX-b7-04Q">
+            <objects>
+                <viewController id="YdW-Ud-P6u" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fgU-KS-gvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.32908364768113263" green="0.6492951574567174" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="Vr9-Sz-Jqo"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" image="calendarIcon" selectedImage="calendarIconSelected" id="mbO-gB-sPi"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="o6A-mJ-lC7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2296" y="689"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="IXC-EQ-iUe">
+            <objects>
+                <viewController id="uov-6Q-VEF" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="J3T-tK-Zg3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.28748315167598715" blue="0.21394212127283296" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="bkp-Wa-wYR"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" image="profileIcon" selectedImage="profileIconSelected" id="UFO-hb-49o"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wpJ-q8-g8H" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1642" y="689"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="pFi-he-HuM">
+            <objects>
+                <viewController id="xJ3-5o-6ez" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3zm-XW-cXv">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="oFX-yu-p7f"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" selectedImage="addBtn" springLoaded="YES" id="ICs-Ne-0J0">
+                        <inset key="imageInsets" minX="-1" minY="7" maxX="10" maxY="0.0"/>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pDV-bE-8CE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-984" y="685"/>
+        </scene>
+        <!--Tab Bar View Controller-->
+        <scene sceneID="8dJ-4E-J2W">
+            <objects>
+                <tabBarController id="vrP-0w-0tI" customClass="TabBarViewController" customModule="WhereIsMyMoney" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="1Au-Nc-qsP" customClass="CustomTabBar" customModule="WhereIsMyMoney" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="YdW-Ud-P6u" kind="relationship" relationship="viewControllers" id="JbN-cD-q6V"/>
+                        <segue destination="f3s-CF-el7" kind="relationship" relationship="viewControllers" id="QqI-W5-4n8"/>
+                        <segue destination="uov-6Q-VEF" kind="relationship" relationship="viewControllers" id="SV5-8E-bE6"/>
+                        <segue destination="xJ3-5o-6ez" kind="relationship" relationship="viewControllers" id="4lz-mi-WwR"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DD3-vs-Ptd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1967" y="-43"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="addBtn" width="90" height="90"/>
+        <image name="calendarIcon" width="25" height="27"/>
+        <image name="calendarIconSelected" width="23" height="25"/>
+        <image name="dashboardIocn" width="30" height="29"/>
+        <image name="dashboardIocnSelected" width="25" height="25"/>
+        <image name="profileIcon" width="24" height="27"/>
+        <image name="profileIconSelected" width="22" height="25"/>
+    </resources>
 </document>
