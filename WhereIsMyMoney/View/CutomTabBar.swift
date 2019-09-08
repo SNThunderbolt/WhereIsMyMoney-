@@ -20,8 +20,17 @@ class CustomTabBar : UITabBar {
         self.addBlurLayer()
 //        self.itemPositioning = .centered
 //        self.itemSpacing = self.frame.width/20
+        
     }
-    
+    override open func sizeThatFits(_ size: CGSize) -> CGSize {
+        super.sizeThatFits(size)
+        var sizeThatFits = super.sizeThatFits(size)
+        if !LiveVariables.isiPhoneXFamily {
+            sizeThatFits.height = 80
+        }
+        return sizeThatFits
+    }
+
     private func addShape(){
         let shapeLayer = CAShapeLayer()
         shapeLayer.path = createPath()

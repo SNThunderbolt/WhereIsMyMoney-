@@ -21,7 +21,7 @@
                         <viewLayoutGuide key="safeArea" id="ajA-6u-X1N"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="calendarIcon" selectedImage="calendarIconSelected" id="ing-QS-3PK">
-                        <inset key="imageInsets" minX="0.0" minY="15" maxX="0.0" maxY="-15"/>
+                        <inset key="imageInsets" minX="0.0" minY="20" maxX="0.0" maxY="-20"/>
                     </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xle-V4-Jdp" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -39,7 +39,7 @@
                         <viewLayoutGuide key="safeArea" id="Vr9-Sz-Jqo"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="dashboardIocn" selectedImage="dashboardIocnSelected" id="mbO-gB-sPi">
-                        <inset key="imageInsets" minX="0.0" minY="15" maxX="0.0" maxY="-15"/>
+                        <inset key="imageInsets" minX="10" minY="22" maxX="-10" maxY="-21"/>
                     </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="o6A-mJ-lC7" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -57,7 +57,7 @@
                         <viewLayoutGuide key="safeArea" id="bkp-Wa-wYR"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="profileIcon" selectedImage="profileIconSelected" id="UFO-hb-49o">
-                        <inset key="imageInsets" minX="0.0" minY="15" maxX="0.0" maxY="-15"/>
+                        <inset key="imageInsets" minX="-10" minY="20" maxX="10" maxY="-20"/>
                     </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wpJ-q8-g8H" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -75,7 +75,7 @@
                         <viewLayoutGuide key="safeArea" id="oFX-yu-p7f"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="" selectedImage="addBtn" springLoaded="YES" id="ICs-Ne-0J0">
-                        <inset key="imageInsets" minX="-1" minY="7" maxX="10" maxY="0.0"/>
+                        <inset key="imageInsets" minX="-1" minY="8" maxX="6" maxY="-8"/>
                     </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pDV-bE-8CE" userLabel="First Responder" sceneMemberID="firstResponder"/>

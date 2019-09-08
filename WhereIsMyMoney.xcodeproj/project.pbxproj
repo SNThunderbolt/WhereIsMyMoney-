@@ -11,7 +11,7 @@
 		290D022123236113001D3788 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290D022023236113001D3788 /* Constants.swift */; };
 		290D02252323B126001D3788 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290D02242323B126001D3788 /* BackgroundView.swift */; };
 		296D331A232284EC00018443 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296D3319232284EC00018443 /* AppDelegate.swift */; };
-		296D331C232284EC00018443 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296D331B232284EC00018443 /* ViewController.swift */; };
+		296D331C232284EC00018443 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296D331B232284EC00018443 /* TabBarViewController.swift */; };
 		296D331F232284EC00018443 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 296D331D232284EC00018443 /* Main.storyboard */; };
 		296D3321232284EC00018443 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 296D3320232284EC00018443 /* Assets.xcassets */; };
 		296D3324232284EC00018443 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 296D3322232284EC00018443 /* LaunchScreen.storyboard */; };
@@ -42,7 +42,7 @@
 		290D02242323B126001D3788 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 		296D3316232284EC00018443 /* WhereIsMyMoney.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhereIsMyMoney.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		296D3319232284EC00018443 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		296D331B232284EC00018443 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		296D331B232284EC00018443 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		296D331E232284EC00018443 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		296D3320232284EC00018443 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		296D3323232284EC00018443 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -153,7 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				296D334C232294A900018443 /* Base */,
-				296D331B232284EC00018443 /* ViewController.swift */,
+				296D331B232284EC00018443 /* TabBarViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -323,7 +323,7 @@
 			files = (
 				290D02252323B126001D3788 /* BackgroundView.swift in Sources */,
 				290D021F2322AA0F001D3788 /* CutomTabBar.swift in Sources */,
-				296D331C232284EC00018443 /* ViewController.swift in Sources */,
+				296D331C232284EC00018443 /* TabBarViewController.swift in Sources */,
 				296D331A232284EC00018443 /* AppDelegate.swift in Sources */,
 				290D022123236113001D3788 /* Constants.swift in Sources */,
 			);
