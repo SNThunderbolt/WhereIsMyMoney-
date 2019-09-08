@@ -17,6 +17,7 @@
 		296D3324232284EC00018443 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 296D3322232284EC00018443 /* LaunchScreen.storyboard */; };
 		296D332F232284EC00018443 /* WhereIsMyMoneyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296D332E232284EC00018443 /* WhereIsMyMoneyTests.swift */; };
 		296D333A232284EC00018443 /* WhereIsMyMoneyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296D3339232284EC00018443 /* WhereIsMyMoneyUITests.swift */; };
+		2982A6422324E28C00B2DE5E /* CustomizationsonTabbarControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2982A6412324E28C00B2DE5E /* CustomizationsonTabbarControllerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		296D3335232284EC00018443 /* WhereIsMyMoneyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhereIsMyMoneyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		296D3339232284EC00018443 /* WhereIsMyMoneyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhereIsMyMoneyUITests.swift; sourceTree = "<group>"; };
 		296D333B232284EC00018443 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2982A6412324E28C00B2DE5E /* CustomizationsonTabbarControllerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizationsonTabbarControllerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				296D334A232286AB00018443 /* AppDelegate */,
 				296D33472322868B00018443 /* Model */,
 				296D33482322869500018443 /* View */,
+				2982A6432324E70600B2DE5E /* ViewModel */,
 				296D3349232286A100018443 /* Controller */,
 				296D334D232294C100018443 /* Utilities */,
 				296D3320232284EC00018443 /* Assets.xcassets */,
@@ -188,6 +191,14 @@
 				290D022023236113001D3788 /* Constants.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		2982A6432324E70600B2DE5E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2982A6412324E28C00B2DE5E /* CustomizationsonTabbarControllerView.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -326,6 +337,7 @@
 				296D331C232284EC00018443 /* TabBarViewController.swift in Sources */,
 				296D331A232284EC00018443 /* AppDelegate.swift in Sources */,
 				290D022123236113001D3788 /* Constants.swift in Sources */,
+				2982A6422324E28C00B2DE5E /* CustomizationsonTabbarControllerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
