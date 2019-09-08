@@ -25,7 +25,7 @@ class CustomTabBar : UITabBar {
     override open func sizeThatFits(_ size: CGSize) -> CGSize {
         super.sizeThatFits(size)
         var sizeThatFits = super.sizeThatFits(size)
-        if !LiveVariables.isiPhoneXFamily {
+        if !LiveVariables.shared.isiPhoneXFamily {
             sizeThatFits.height = 80
         }
         return sizeThatFits

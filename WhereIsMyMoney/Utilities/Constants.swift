@@ -20,16 +20,13 @@ extension UIColor {
 
 
 struct LiveVariables {
-    
-    
-    
-    
+    static var shared = LiveVariables()
     
     //MARK:- Device Family
-    static var isiPhoneXFamily: Bool {
+    var isiPhoneXFamily: Bool {
         return isIphoneXFamilyOrLater()
     }
-    static func returniPhoneModel() -> DeviceModel {
+    private func returniPhoneModel() -> DeviceModel {
         if UIDevice().userInterfaceIdiom == .phone {
             switch UIScreen.main.nativeBounds.height {
             case ..<1136:
@@ -61,7 +58,7 @@ struct LiveVariables {
         }
         return .unknown
     }
-    static func isIphoneXFamilyOrLater() -> Bool {
+    private func isIphoneXFamilyOrLater() -> Bool {
         if returniPhoneModel() == .iphoneX_XS ||
            returniPhoneModel() == .iphoneXsMax ||
            returniPhoneModel() == .iphoneXR ||
