@@ -32,10 +32,17 @@
         <scene sceneID="xIX-b7-04Q">
             <objects>
                 <viewController id="YdW-Ud-P6u" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="fgU-KS-gvc">
+                    <view key="view" contentMode="scaleToFill" id="fgU-KS-gvc" customClass="AnimatedBackgroundView" customModule="WhereIsMyMoney" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.32908364768113263" green="0.6492951574567174" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wGP-Kj-c8f">
+                                <rect key="frame" x="87" y="221" width="240" height="326"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.69375720545873532" blue="0.59027964364957708" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="Vr9-Sz-Jqo"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="dashboardIocn" selectedImage="dashboardIocnSelected" id="mbO-gB-sPi">
@@ -44,7 +51,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="o6A-mJ-lC7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3049" y="688"/>
+            <point key="canvasLocation" x="-3049.275362318841" y="687.72321428571422"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="IXC-EQ-iUe">

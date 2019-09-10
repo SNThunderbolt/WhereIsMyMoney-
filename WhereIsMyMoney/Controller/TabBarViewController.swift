@@ -20,12 +20,10 @@ class TabBarViewController: UITabBarController, UITabBarControllerDelegate {
         customizeItemImagesAndPlaces()
         customizeTabBarColors()
     }
-    
     override func tabBar(_ tabBar: UITabBar, didSelect item: UITabBarItem) {
-        //print("shit just selected")
+        
     }
     
-
     private func customizeTabBarColors() {
         self.tabBar.unselectedItemTintColor = .TabBarItemUnselectedColor
         self.tabBar.tintColor = .purple
