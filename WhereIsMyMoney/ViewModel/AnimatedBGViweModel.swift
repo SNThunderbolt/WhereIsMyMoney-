@@ -44,14 +44,14 @@ struct AnimatedBGViewModel {
         let scndXStart = screenWidth*(5/8)
         let thrdXStart = screenWidth*(-15/100)
         let frthXStart = screenWidth*(-1/8)
-        let ffthXStart = screenHeight*(1/8)
+        let ffthXStart = screenHeight*(2/8)
         self.possibleXStart = [frstXStart, scndXStart, thrdXStart, frthXStart, ffthXStart]
         
         let frstWdth = screenWidth*(1/5)
         let scndWdth = screenWidth*(3/5)
         let thrdWdth = screenWidth*(1/3)
         let frthWdth = screenWidth*(1/3)
-        let ffthWdth = screenWidth*(4/7)
+        let ffthWdth = screenWidth*(3/7)
         self.possibleWidth = [frstWdth, scndWdth, thrdWdth, frthWdth, ffthWdth]
         
         let frstHght = screenHeight*(2/5)
