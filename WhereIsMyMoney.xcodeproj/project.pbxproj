@@ -10,6 +10,8 @@
 		290D021F2322AA0F001D3788 /* CutomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290D021E2322AA0F001D3788 /* CutomTabBar.swift */; };
 		290D022123236113001D3788 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290D022023236113001D3788 /* Constants.swift */; };
 		2956CD582327C13E00DC26C9 /* AnimatedBGViweModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2956CD572327C13E00DC26C9 /* AnimatedBGViweModel.swift */; };
+		2956CD5A2327D4BC00DC26C9 /* CalendarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2956CD592327D4BC00DC26C9 /* CalendarVC.swift */; };
+		2956CD5D2327EE4500DC26C9 /* DashboardContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2956CD5C2327EE4500DC26C9 /* DashboardContentView.swift */; };
 		296D331A232284EC00018443 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296D3319232284EC00018443 /* AppDelegate.swift */; };
 		296D331C232284EC00018443 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296D331B232284EC00018443 /* TabBarViewController.swift */; };
 		296D331F232284EC00018443 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 296D331D232284EC00018443 /* Main.storyboard */; };
@@ -50,6 +52,8 @@
 		290D021E2322AA0F001D3788 /* CutomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CutomTabBar.swift; sourceTree = "<group>"; };
 		290D022023236113001D3788 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		2956CD572327C13E00DC26C9 /* AnimatedBGViweModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedBGViweModel.swift; sourceTree = "<group>"; };
+		2956CD592327D4BC00DC26C9 /* CalendarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarVC.swift; sourceTree = "<group>"; };
+		2956CD5C2327EE4500DC26C9 /* DashboardContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardContentView.swift; sourceTree = "<group>"; };
 		296D3316232284EC00018443 /* WhereIsMyMoney.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhereIsMyMoney.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		296D3319232284EC00018443 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		296D331B232284EC00018443 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
@@ -72,7 +76,7 @@
 		2982A6522325397E00B2DE5E /* Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
 		2982A65423253AA600B2DE5E /* Drawer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drawer.swift; sourceTree = "<group>"; };
 		2982A65623254B0F00B2DE5E /* CustomGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomGradient.swift; sourceTree = "<group>"; };
-		2982A6582326238900B2DE5E /* AnimatedBgView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AnimatedBgView.swift; path = WhereIsMyMoney/View/AnimatedBgView.swift; sourceTree = SOURCE_ROOT; };
+		2982A6582326238900B2DE5E /* AnimatedBgView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AnimatedBgView.swift; path = WhereIsMyMoney/View/BackgroundView/AnimatedBgView.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2956CD5B2327EE2000DC26C9 /* DashboardView */ = {
+			isa = PBXGroup;
+			children = (
+				2956CD5C2327EE4500DC26C9 /* DashboardContentView.swift */,
+			);
+			path = DashboardView;
+			sourceTree = "<group>";
+		};
 		296D330D232284EC00018443 = {
 			isa = PBXGroup;
 			children = (
@@ -164,6 +176,7 @@
 		296D33482322869500018443 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				2956CD5B2327EE2000DC26C9 /* DashboardView */,
 				2982A6512325396500B2DE5E /* Animation */,
 				2982A64E232504E400B2DE5E /* BackgroundView */,
 				2982A64D232504C900B2DE5E /* BankAccountCell */,
@@ -177,6 +190,7 @@
 			children = (
 				296D334C232294A900018443 /* Base */,
 				296D331B232284EC00018443 /* TabBarViewController.swift */,
+				2956CD592327D4BC00DC26C9 /* CalendarVC.swift */,
 				2982A6442324F14400B2DE5E /* DashboardVC.swift */,
 			);
 			path = Controller;
@@ -237,6 +251,7 @@
 		2982A64E232504E400B2DE5E /* BackgroundView */ = {
 			isa = PBXGroup;
 			children = (
+				2982A6582326238900B2DE5E /* AnimatedBgView.swift */,
 				2982A64F232504FD00B2DE5E /* BackgroundView.swift */,
 			);
 			path = BackgroundView;
@@ -247,7 +262,6 @@
 			children = (
 				2982A6522325397E00B2DE5E /* Animation.swift */,
 				2982A65423253AA600B2DE5E /* Drawer.swift */,
-				2982A6582326238900B2DE5E /* AnimatedBgView.swift */,
 			);
 			name = Animation;
 			path = "ؤدهپشفهخد";
@@ -388,8 +402,10 @@
 				2982A650232504FD00B2DE5E /* BackgroundView.swift in Sources */,
 				290D021F2322AA0F001D3788 /* CutomTabBar.swift in Sources */,
 				2982A6452324F14400B2DE5E /* DashboardVC.swift in Sources */,
+				2956CD5D2327EE4500DC26C9 /* DashboardContentView.swift in Sources */,
 				296D331C232284EC00018443 /* TabBarViewController.swift in Sources */,
 				2982A65723254B0F00B2DE5E /* CustomGradient.swift in Sources */,
+				2956CD5A2327D4BC00DC26C9 /* CalendarVC.swift in Sources */,
 				2982A65523253AA600B2DE5E /* Drawer.swift in Sources */,
 				2982A64C2324F9B800B2DE5E /* ViewExtensions.swift in Sources */,
 				296D331A232284EC00018443 /* AppDelegate.swift in Sources */,

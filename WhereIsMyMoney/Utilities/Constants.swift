@@ -25,6 +25,9 @@ extension UIColor {
     
     static let VagueWhiteColor = UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 0.9)
     static let RoundedRectOnColor = UIColor(red: 1, green: 1, blue: 1, alpha: 0.2)
+    
+    static let VagueTextColor = UIColor(red: 180/255, green: 116/255, blue: 175/255, alpha: 1.0)
+    
 }
 
 

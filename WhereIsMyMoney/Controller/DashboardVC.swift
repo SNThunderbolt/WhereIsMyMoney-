@@ -11,15 +11,14 @@ import UIKit
 
 class DashboardVC: UIViewController {
     
+    @IBOutlet weak var contentView: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        
-        
+        self.view.bringSubviewToFront(contentView)
     }
-    
     
 }

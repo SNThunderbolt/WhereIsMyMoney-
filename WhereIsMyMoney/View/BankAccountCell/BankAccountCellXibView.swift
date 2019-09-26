@@ -18,20 +18,8 @@ class BankAccountCellXibView: UIView {
     @IBOutlet weak var title: UILabel!
     @IBOutlet weak var balanceLbl: UILabel!
     
-//    let delegateInstance : BanckAccountCellDelegate!
     override func awakeFromNib() {
-//        delegateInstance.didTapOnCell()
-        imageView.cornerRadius =  LiveVariables.shared.defaultCornerRadius
+        imageView?.cornerRadius =  LiveVariables.shared.defaultCornerRadius
         self.cornerRadius = LiveVariables.shared.defaultCornerRadius
     }
-    
-    
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
-    }
-    */
-
 }
